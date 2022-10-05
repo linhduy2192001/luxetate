@@ -1,0 +1,11 @@
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: red;
+    height: 80px;
+    z-index: 100px;
+}
+header:active{
+    
+}

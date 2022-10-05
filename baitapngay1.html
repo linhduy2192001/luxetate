@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxestate</title>
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<style>
+    table{
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;  
+ 
+        
+    }
+    tr,th{
+        border: 1px solid #000000;
+        text-align: left;
+        padding:8px
+    }
+</style>
+<body>
+    <!--Tạo form -->
+    <p style="font-weight: bold;font-size: 30px;">THÔNG TIN LIÊN HỆ</p>
+    <form action="">
+            <label for="name">Họ và tên: </label>
+            <input type="text" id="name"  placeholder="Vui lòng nhập họ và tên">
+        <br><br>
+            <label for="number">Số điện thoại:</label>
+            <input type="number" id="number" placeholder="Vui lòng nhập SĐT">
+        <br><br>
+            <label for="email">Email:<label>
+            <input type="email" id="email" placeholder="Vui lòng nhập Email">
+        <p>Giới tính:</p>
+            <input type="radio">
+            <label for="nam">Nam</label>
+            <input type="radio">
+            <label for="nu">Nữ</label>
+        <br><br>
+                <label for="country">Chọn tỉnh thành:</label>
+                <select id="country" name="City">
+                    <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
+                    <option value="Hà Nội">Hà Nội</option>
+                    <option value="Đà Nẵng">Đà Nẵng</option>
+                </select>
+        <br><br>
+            <label for="hoppy">Sở thích:</label>
+                <select name="City">
+                    <option value="Du lịch">Du lịch</option>
+                    <option value="Âm nhạc">Lập trình</option>
+                    <option value="Chơi game">Chơi game</option>
+            </select>
+        <p>Ý kiến cá nhân</p>
+            <textarea name="comment" cols="30" rows="10"></textarea>
+        <br>
+            <button type="submit">Gửi liên hệ</button>
+    </form>
+
+    <!--Tạo bảng thông tin giảng viên-->
+    <p style="font-weight: bold;font-size: 30px;">THÔNG TIN GIẢNG VIÊN</p>
+    <table>
+        <!--table với width: 100% sẽ fit với chiều rộng của trang web-->
+        <tr>
+            <th>Giảng Viên</th>
+            <th>Chức danh</th>
+            <th>Thông tin liên hệ</th>
+            <th>Quốc gia</th>
+        </tr>
+        <tr>
+            <th>Trần Nghĩa</th>
+            <th>CEO & FOUNDER</th>
+            <th>0323471228</th>
+            <th>Việt Nam</th>
+        </tr>
+        <tr>
+            <th>Nguyễn Đức Huy</th>
+            <th>FULLSTACK DEVELOPER</th>
+            <th>0842002639</th>
+            <th>Việt Nam</th>
+        </tr>
+        <tr>
+            <th>Đăng Thuyền Vương</th>
+            <th>FRONTEND TEAM LEAD</th>
+            <th>0123471229</th>
+            <th>Việt Nam</th>
+        </tr>
+        <tr>
+            <th>Huỳnh Anh Kiệt</th>
+            <th>FRONTEND DEVELOPER</th>
+            <th>0845281639</th>
+            <th>Việt Nam</th>
+        </tr>
+        <tr>
+            <th>Nguyễn Văn Thái An</th>
+            <th>FRONTEND DEVELOPER</th>
+            <th>0123784192</th>
+            <th>Việt Nam</th>
+        </tr>
+        <tr>
+            <th>Lê Châu Hữu Thiện</th>
+            <th>FRONTEND DEVELOPER</th>
+            <th>0328128383</th>
+            <th>Việt Nam</th>
+        </tr>
+    </table>
+
+</body>
+</html>
